@@ -15,7 +15,7 @@ RESET='\033[0m'
 server_ip=$(hostname -I)
 
 uptime=$(uptime -p)
-#uptime_cn=$(echo $uptime | sed 's/up/已运行/; s/hour/时/; s/minutes/分/; s/days/天/; s/months/月/')
+uptime_cn=$(echo $uptime | sed 's/up/已运行/; s/hour/时/; s/minutes/分/; s/days/天/; s/months/月/')
 
 
 
@@ -28,6 +28,7 @@ show_menu() {
 ✪  工具名称：${RED}Linux工具${RESET}        
 ✪  工具版本：${GREEN}V1.0.3${RESET}      
 ✪  服务器IP：$server_ip
+✪  运行时间：$uptime_cn
 --------------------[综合菜单]---------------------
 
    1. 系统操作菜单(修改密码、SSH端口、更新系统等)
