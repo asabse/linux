@@ -7,8 +7,8 @@
 ### 使用方法
 大陆服务器
 ```bash
-curl -L https://gitee.com/asabse116/linux/blob/master/Linux.sh -o Linux.sh && chmod +x Linux.sh && bash Linux.sh
+curl -L https://gitee.com/asabse116/linux/blob/master/linux.sh -o linux.sh && chmod +x linux.sh && bash linux.sh
 ```
 境外服务器
 ```bash
-curl -L https://github.com/asabse/linux/blob/main/linux.sh -o Linux.sh && chmod +x Linux.sh && bash Linux.sh
+curl -L https://github.com/asabse/linux/blob/main/linux.sh -o linux.sh && chmod +x linux.sh && bash linux.sh
